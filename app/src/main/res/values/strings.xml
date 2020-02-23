@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Органайзер</string>
+    <string name="save_button">Сохранить</string>
+    <string name="save_data">Данные сохранены</string>
+    <string name="nosave_data">Данные не сохранены</string>
+    <string name="mBankCardChkBx_name">Оплата c банковской карты произведена</string>
+    <string name="mMobilePhoneChkBx_name">Оплата с мобильного телефона произведена</string>
+    <string name="mCashAddressChkBx_name">Оплата по адресу произведена</string>
+    <string name="input_money">Ввод денег</string>
+    <string name="payment_information">Информация об оплате</string>
+    <string name="ok_button">OK</string>
+    <string name="bank_check">С банковской карты</string>
+    <string name="mobile_check">С мобильного телефона</string>
+    <string name="nal_check">Наличными по адресу</string>
+    <string name="bank">Банк</string>
+    <string name="Notebook">Записная книжка</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+    <string name="button_adress">Показать адрес</string>
+    <string name="city">Города</string>
+    <string name="data_start">Дата-время окончания задачи:</string>
+    <string name="ok">OK</string>
+    <string name="data_stop">Дата-время старта задачи:</string>
+    <string name="Calendar">Календарь</string>
+
+    <string name="list_app">
+        Записная книжка \n\n
+        Банк \n\n
+        Города \n\n
+        Календарь \n\n
+    </string>
+
+    <string name="list_appSub">
+        Компоненты ViewGroup. SharedPrefs \n\n
+        Компоненты ViewGroup. SharedPrefs \n\n
+        Компоненты ViewGroup. SharedPrefs \n\n
+        Компоненты View. Иерархия Views \n\n
+    </string>
+
+</resources>

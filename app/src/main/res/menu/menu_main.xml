@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.netodologia.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="@string/Notebook"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bank"
+        android:orderInCategory="100"
+        android:title="@string/bank"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_city"
+        android:orderInCategory="100"
+        android:title="@string/city"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_calendar"
+        android:orderInCategory="100"
+        android:title="@string/Calendar"
+        app:showAsAction="never" />
+</menu>
