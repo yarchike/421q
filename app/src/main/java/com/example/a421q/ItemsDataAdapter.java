@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +17,7 @@ public class ItemsDataAdapter extends BaseAdapter {
 
     private List<ItemData> items;
     private LayoutInflater inflater;
-
+    private Context mContext;
 
     ItemsDataAdapter(Context context, List<ItemData> items) {
         if (items == null) {
@@ -24,6 +26,7 @@ public class ItemsDataAdapter extends BaseAdapter {
             this.items = items;
         }
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        mContext = context;
     }
 
 
@@ -59,7 +62,11 @@ public class ItemsDataAdapter extends BaseAdapter {
         TextView title = view.findViewById(R.id.TextOneList);
         TextView subtitle = view.findViewById(R.id.TextTwoList);
 
-        image.setImageDrawable(itemData.getImage());
+        //image.setImageDrawable(itemData.getImage());
+        Glide.with(mContext)
+                .load(itemData.getImage())
+                .into(image);
+
         title.setText(itemData.getTitle());
         subtitle.setText(itemData.getSubtitle());
 

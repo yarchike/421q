@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
     }
     private void fillImages() {
         images.add(ContextCompat.getDrawable(MainActivity.this,
-                android.R.drawable.ic_menu_report_image));
+                R.drawable.one));
         images.add(ContextCompat.getDrawable(MainActivity.this,
-                android.R.drawable.ic_menu_add));
+                R.drawable.two));
         images.add(ContextCompat.getDrawable(MainActivity.this,
-                android.R.drawable.ic_menu_agenda));
+                R.drawable.three));
         images.add(ContextCompat.getDrawable(MainActivity.this,
-                android.R.drawable.ic_menu_camera));
+                R.drawable.four));
     }
 
     private void prepareContent(){
